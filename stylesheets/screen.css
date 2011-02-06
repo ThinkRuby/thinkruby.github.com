@@ -52,6 +52,7 @@ a.ruby:hover {
 div.main {
 	width: 960px;
 	margin: 0 auto;
+	margin-top: 1em;
 	text-align: center;
 }
 
