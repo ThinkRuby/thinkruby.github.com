@@ -17,20 +17,36 @@ a {
 	text-decoration: none;
 }
 
-a.think_ruby:hover {
-	color: #95e0fc;	
-}
-
-a.python:hover {
-	color: #ffb515;	
-}
-
-a.ruby:hover {
-	color: #b8160d;	
+img {
+	border: none;
 }
 
 a:hover {
-	color: black;
+	border-bottom: none;
+}
+
+a.think_ruby {
+	border-bottom: 1px solid #95e0fc;
+}
+
+a.think_ruby:hover {
+	color: #95e0fc;
+}
+
+a.python {
+	border-bottom: 1px solid #ffb515;
+}
+
+a.python:hover {
+	color: #ffb515;
+}
+
+a.ruby {
+	border-bottom: 1px solid #b8160d;
+}
+
+a.ruby:hover {
+	color: #b8160d;
 }
 
 div.main {
@@ -57,4 +73,5 @@ div.links img {
 
 div#link_text {
 	margin-top: .5em;
+	height: 50px;
 }
