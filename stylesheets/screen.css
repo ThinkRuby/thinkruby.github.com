@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin:0; padding:0; }
+* html body{ overflow:hidden; } 
+
+h1, p {
+	font-family: 'Gruppo', Georgia, serif;
+}
+
+p {
+	font-size: 18px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a.think_ruby:hover {
+	color: #95e0fc;	
+}
+
+a.python:hover {
+	color: #ffb515;	
+}
+
+a.ruby:hover {
+	color: #b8160d;	
+}
+
+a:hover {
+	color: black;
+}
+
+div.main {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+div.main h1 {
+	margin-top: .5em;
+}
+
+div.links {
+	margin: 0 auto;
+	margin-top: 3em;
+	padding-top: .5em;
+	border-top: 1px solid black;
+	width: 200px;
+}
+
+div.links img {
+	margin: .25em;
+}
+
+div#link_text {
+	margin-top: .5em;
+}
