@@ -62,7 +62,7 @@ div.main h1 {
 
 div.links {
 	margin: 0 auto;
-	margin-top: 3em;
+	margin-top: 9em;
 	padding-top: .5em;
 	border-top: 1px solid black;
 	width: 200px;
@@ -74,5 +74,4 @@ div.links img {
 
 div#link_text {
 	margin-top: .5em;
-	height: 50px;
 }
